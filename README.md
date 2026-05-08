@@ -5,8 +5,11 @@ Este repositório é dedicado ao registro, prática e domínio dos conceitos de 
 ## 🛠️ Tecnologias e Ferramentas
 
 * **Linguagem Principal:** Java 21 (LTS).
-* **IDEs Utilizadas:** * **IntelliJ IDEA:** Foco em produtividade e projetos complexos.
-  * **Eclipse IDE:** Utilizado para compatibilidade acadêmica e reforço de fundamentos.
+* 
+* **IDEs Utilizadas:**
+* * **IntelliJ IDEA:** Foco em produtividade e projetos complexos.
+* **Eclipse IDE:** Utilizado para compatibilidade acadêmica e reforço de fundamentos.
+* 
 * **Versionamento:** Git e GitHub (Padrão Conventional Commits).
 
 ## 📌 Observação
