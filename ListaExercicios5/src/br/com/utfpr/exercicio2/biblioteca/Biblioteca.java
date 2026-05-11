@@ -28,10 +28,14 @@ public class Biblioteca {
 		Livro livro = this.buscarLivro(titulo);
 		
 		if(livro != null) {
+			if(livro.getDisponivel()) {
 			System.out.println("Livro emprestado com sucesso");
-			livro.setDisponivel(false);
+			livro.setDisponivel(false);	
 			livro.setDiaEmprestimo(dia);
-			
+			}
+			else {
+				System.out.println("Livro nao disponivel");
+			}
 		}else {
 			System.out.println("Livro nao encontrado");
 		}
