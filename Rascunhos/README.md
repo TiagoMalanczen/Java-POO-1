@@ -10,5 +10,5 @@ Isolar o aprendizado de conceitos complexos (Composição, Polimorfismo, Coleç�
 - **Testes de Navegação:** Prática de acesso a atributos de objetos compostos (Ex: `cliente.getPlano().getLimite()`).
 
 ## 🛠️ Tecnologias
-- Java (JDK 17+)
+- Java (JDK 21)
 - Eclipse IDE
