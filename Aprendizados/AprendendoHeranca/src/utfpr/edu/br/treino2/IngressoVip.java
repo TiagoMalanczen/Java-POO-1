@@ -14,7 +14,7 @@ public class IngressoVip extends Ingresso{
 	public double calcularValorFinal() {
 		return super.calcularValorFinal() + this.valorAdicional;
 	}
-	
+	@Override
 	public void imprimirRecibo() {
 		super.imprimirRecibo();
 		System.out.println("Valor adicional = "+ this.valorAdicional);

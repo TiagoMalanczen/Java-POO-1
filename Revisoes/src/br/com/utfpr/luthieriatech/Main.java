@@ -21,7 +21,7 @@ public class Main {
 		
 		System.out.println();
 		
-		System.out.println(pedido.calcularTotal());;
+		System.out.println(pedido.calcularTotal());
 		
 		System.out.println(pedido.contarProdutosAcimaDe(500.00));
 	}

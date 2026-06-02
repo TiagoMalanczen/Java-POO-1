@@ -8,7 +8,7 @@ public class Main  {
 		
 		a1.abastecer();
 		a1.voar();
-		
+		System.out.println();
 		c1.abastecer();
 		c1.calibrarPneus();
 	}

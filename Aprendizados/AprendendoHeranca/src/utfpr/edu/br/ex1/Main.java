@@ -7,8 +7,8 @@ public class Main {
 		//===========Instanciando===========
 		Professor professor1 = new Professor("Jair", 37, 5000.00, 2000.00);
 			
-		Aluno aluno1 = new Aluno("Pedrin", 17, "ADS");
-		
+		Aluno aluno1 = new Aluno("Pedrin", 17);
+			
 		//===========Testando===========
 		professor1.imprimirDados();
 		System.out.println("---------------");

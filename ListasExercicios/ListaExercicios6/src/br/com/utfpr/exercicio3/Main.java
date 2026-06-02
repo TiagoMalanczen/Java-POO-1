@@ -9,5 +9,7 @@ public class Main {
 		pessoa1.imprimirDados();
 		System.out.println("================");
 		aluno1.imprimirDados();
+		
+		
 	}
 }

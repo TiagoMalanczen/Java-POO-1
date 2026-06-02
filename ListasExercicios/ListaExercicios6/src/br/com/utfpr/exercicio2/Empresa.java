@@ -6,8 +6,8 @@ public class Empresa extends Prestador{
 
 	
 	//===========Construtor===========
-	public Empresa(String nome, String endereco, String dataInicio, String tipoServico, double velorHora, long cnpj) {
-		super(nome, endereco, dataInicio, tipoServico, velorHora);
+	public Empresa(String nome, String endereco, String dataInicio, String tipoServico, double valorHora, long cnpj) {
+		super(nome, endereco, dataInicio, tipoServico, valorHora);
 		this.cnpj = cnpj;
 	}
 	

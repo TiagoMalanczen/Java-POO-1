@@ -7,13 +7,13 @@ public class Aluno extends Pessoa{
 
 	//===========Construtor===========
 	
-	public Aluno(String nome, int idade, String curso) {
+	public Aluno(String nome, int idade) {
 		super(nome, idade);
-		this.curso = curso;
 	}
 	
 	//===========Metodos===========
 	public void realizarMatricula(String cursoDesejado) {
+		this.curso = cursoDesejado;
 		System.out.println("Ralizando matricula no curso " + cursoDesejado);
 	}
 	
