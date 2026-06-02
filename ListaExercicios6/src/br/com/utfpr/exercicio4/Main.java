@@ -16,7 +16,11 @@ public class Main {
 	    System.out.println("---------");
 	    caminhao.imprimirDados();
 	    
+	    System.out.println("===========");
+	    
 	    carro.calcularIPVA();
+	    moto.calcularIPVA();
+	    caminhao.calcularIPVA();
 	    
 	}
 }
