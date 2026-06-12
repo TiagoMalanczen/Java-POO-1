@@ -5,7 +5,7 @@ public class NotificacaoSMS extends Notificacao{
 	public NotificacaoSMS(String destinario) {
 		super(destinario);
 	}
-	
+	@Override
 	public void enviar(String mensagem) {
 		System.out.println("Enviando SMS para destinatario " + this.destinario);
 		 System.out.println(mensagem);
