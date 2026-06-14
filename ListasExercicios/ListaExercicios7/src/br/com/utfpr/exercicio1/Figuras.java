@@ -6,7 +6,7 @@ public abstract class Figuras {
 	protected String cor;
 	
 	//===========Construtor===========
-	public Figuras(String cor) {
+	protected Figuras(String cor) {
 		super();
 		this.cor = cor;
 	}

@@ -5,7 +5,7 @@ public abstract class FormaPagamento {
 	protected double valorToral;
 
 	//===========Contrutor===========
-	public FormaPagamento(double valorToral) {
+	protected FormaPagamento(double valorToral) {
 		super();
 		this.valorToral = valorToral;
 	}
