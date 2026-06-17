@@ -17,6 +17,7 @@ public class Main {
 		System.out.println("opcao:");
 		int opcao = input.nextInt();
 		
+		//Coercao implicita
 		switch(opcao) {
 		case 1:
 		veiculo = new Carro("Gol", "Volks", 2020, 5, "flex", 5);
@@ -28,6 +29,7 @@ public class Main {
 	
 		veiculo.abastecer();
 		
+		//Coercao explicita
 		if(veiculo instanceof Carro) {
 			Carro carro = (Carro) veiculo;
 			
