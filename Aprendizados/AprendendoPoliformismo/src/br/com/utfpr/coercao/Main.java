@@ -28,5 +28,16 @@ public class Main {
 	
 		veiculo.abastecer();
 		
+		if(veiculo instanceof Carro) {
+			Carro carro = (Carro) veiculo;
+			
+			carro.calibrarPneus();
+		}
+		if(veiculo instanceof Aviao) {
+			Aviao aviao = (Aviao) veiculo;
+			
+			aviao.voar();
+		}
+		
 	}
 }
