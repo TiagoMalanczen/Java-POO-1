@@ -38,7 +38,10 @@ public abstract class Veiculo {
 	}
 	
 	public void abastecer(double litros, boolean cupomDesconto) {
-		if()
+		if(cupomDesconto == true) {
+			System.out.println("Valor de desconto de 10%");
+		}
+		System.out.println("Abastecendo com " + litros + " o automovel");
 	}
 	
 }
