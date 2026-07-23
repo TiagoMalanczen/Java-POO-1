@@ -33,15 +33,24 @@ public class ExercicioMatriz {
 				if (mat[i][j] == x) {
 					linha = i;
 					coluna = j;
+					
+					System.out.println("Numero encontrado na linha " + linha + " coluna " + coluna);
+					
+					if(linha > 0)
+					System.out.println("Numero acima = " + mat[linha - 1][coluna]);
+					if(linha > l)
+					System.out.println("Numero abaixo = " + mat[linha + 1][coluna]);
+					if(coluna > 0)
+					System.out.println("Numero a esquerda = " + mat[linha][coluna - 1]);
+					if(coluna > c)
+					System.out.println("Numero a direita = " + mat[linha][coluna + 1]);
+					
 				}
 			}
 		}
 
-		System.out.println("Numero encontrado na linha " + linha + " coluna " + coluna);
-		System.out.println("Numero acima = " + mat[linha-1][coluna]);
-		System.out.println("Numero abaixo = " + mat[linha+1][coluna]);
-		System.out.println("Numero a esquerda = " + mat[linha][coluna-1]);
-		System.out.println("Numero a direita = " + mat[linha][coluna+1]);
+		
+
 		sc.close();
 	}
 
