@@ -8,10 +8,10 @@ public class Program {
 
 	public static void main(String[] args) {
 
-		Account acc = new Account(1001, "Alex", 0.0);
-
-		BusinessAccount bacc = new BusinessAccount(1001, "Maria", 0.0, 500.00);
-
+		Account acc = new Account(1001, "Alex", 1000.0);
+		BusinessAccount bacc = new BusinessAccount(1001, "Maria", 1000.0, 0.1);
+		SavingsAccount sacc = new SavingsAccount(1001, "Mario", 1000.0, 0.1);
+		
 		// UPCASTING
 		Account acc1 = bacc;
 		acc1.getBalance();
@@ -33,7 +33,19 @@ public class Program {
 		if (acc3 instanceof SavingsAccount) {
 			SavingsAccount acc5 = (SavingsAccount) acc3;
 			acc5.updateBalance();
-			System.out.println("Update");
+			System.out.println("Update!");
 		}
+		System.out.println();
+		
+		acc.withdraw(200.0);
+		System.out.println(acc.getBalance());
+		
+		sacc.withdraw(200.0);
+		System.out.println(sacc.getBalance());
+		
+		bacc.withdraw(200.0);
+		System.out.println(bacc.getBalance());
+
+		
 	}
 }
