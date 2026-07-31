@@ -10,12 +10,7 @@ public class FileBuffred_Readers {
 
 		String patch = "C:\\Users\\malan\\Desktop\\teste.txt";
 
-		FileReader fr = null;
-		BufferedReader br = null;
-
-		try {
-			fr = new FileReader(patch);
-			br = new BufferedReader(fr);
+		try(BufferedReader br = new BufferedReader(new FileReader(patch))) {
 
 			String line = br.readLine();
 
@@ -27,21 +22,6 @@ public class FileBuffred_Readers {
 		catch (IOException e) {
 			System.out.println("Error :" + e.getMessage());
 		} 
-		finally {
-
-			try {
-				if (br != null) {
-					br.close();
-				}
-				if (fr != null) {
-					fr.close();
-				}
-			} 
-			catch (IOException e) {
-				e.printStackTrace();
-			}
-
-		}
 	}
 
 }
